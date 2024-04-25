@@ -1,5 +1,6 @@
 a = "Lorem ipsum dolor sit amet."
-print(a[10:20:2])
+# print(a[len(a)::-2])
+print(a[::])
 
 b = "Helloworld"
 print(b[::-1])
