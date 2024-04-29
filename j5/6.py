@@ -5,7 +5,9 @@ cars = ["Ford", "BMW", "Volvo"]
 for i in cars:
     fruits.append(i)
 
-print(fruits)
+# fruits.append(cars)
+
+print(fruits[3][1])
 
 fruits.extend(cars)
 print(fruits)
